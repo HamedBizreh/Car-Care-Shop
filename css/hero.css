@@ -1,0 +1,156 @@
+#hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 720px;
+  margin:100px 0 0 175px;
+}
+
+.hero-img {
+  width: 800px;
+  height: 720px;
+  object-fit: cover;
+  border-top-left-radius: 50px;
+  box-shadow: -1px 0 5px rgba(0, 0, 0, 0.5);
+}
+#hero h1 {
+  font-size: 70px;
+}
+#hero h1 span{
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(166, 0, 255);
+}
+.quick-description{
+  height: 100%; /*or same height as hashem hero in pxs*/
+  display: flex;
+  flex-direction: column;
+  max-width: 630px;
+}
+.quick-description p{
+  font-size: 21px;
+  margin: 0;
+}
+.hero-buttons{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 70px;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+.button1{
+  padding: 0 70px;
+  border-radius: 15px;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #42B0FF;
+  transition: all 0.2s;
+}
+.button1:hover{
+  transition: all 0.2s;
+  transform: scale(1.08);
+  background-color: rgb(115, 157, 255);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.button1:active{
+  transition: all 0.2s;
+  transform: scale(1.04);
+  box-shadow: none;
+  background-color: rgba(115, 157, 255,0.5);
+}
+.button2{
+  padding: 30px 45px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s;
+}
+.button2 img{
+  width: 50px;
+  height: 50px;
+  transition: all 0.2s ;
+}
+.button2:hover{
+  background-color: #fef2ec;
+  transform: translateY(-5px);
+  transition: all 0.2s;
+}
+.button2:hover img{
+  transform: scale(1.1);
+  filter: brightness(1.2);
+  transition: all 0.2s;
+}
+
+.sideBar{
+  background-color: #0d2a6b;
+  position: absolute;
+  z-index: -2;
+  right: 0px;
+  top: 99px;
+  height: 820px;
+  width: 450px;
+}
+.cornerCut{
+  width: 105px;
+  height: 150px;
+  z-index: -1;
+  position: absolute;
+  top:80px;
+  right: 440px;
+  rotate: 12deg;
+  background-color: var(--bg);
+}
+
+/* Video popup background overlay */
+.popup {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Inner video box */
+.popup-content {
+  position: relative;
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 30px;
+  color: #333;
+  cursor: pointer;
+  z-index: 1;
+}
+.close:hover {
+  color: #ff3333;
+}
+
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}

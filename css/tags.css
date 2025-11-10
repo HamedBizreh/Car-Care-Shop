@@ -1,0 +1,38 @@
+#tags {
+  height: 400px;
+  background-color: #0d2a6b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box h2 {
+  font-weight: 500;
+  color: white;
+  margin: 15px 0 0;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.box p{
+  color: rgb(215, 215, 215);
+  max-width: 350px;
+  text-align: center;
+  margin: 0;
+}
+.image-box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.icon {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}

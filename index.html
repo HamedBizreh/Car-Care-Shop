@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/tags.css" />
+    <title>Bi Motors</title>
+  </head>
+  <body>
+    <header>
+      <picture class="left-section">
+        <img src="images/full_logo.png" alt="Logo" />
+      </picture>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#location">Location</a>
+      </nav>
+      <picture class="right-section">
+        <a href="https://www.instagram.com/bimotors.com.tr" target="_blank">
+          <img src="images/turkey.png" alt="Turkish-Flag" />
+        </a>
+        <a href="https://www.instagram.com/bimotors.palestine" target="_blank">
+          <img src="images/palestine.png" alt="Palestinian-Flag" />
+        </a>
+      </picture>
+    </header>
+    <section id="hero">
+      <div class="quick-description">
+        <h1>Welcome To <br /><span>Bi Motors</span> Filistin</h1>
+        <p>
+          At Bi Motors Palestine, we offer complete car care — from detailed
+          washes and professional polishing to interior cleaning. Our team uses
+          quality products and trusted techniques to make every vehicle look and
+          feel like brand new.
+        </p>
+        <div class="hero-buttons">
+          <a class="button1" href="#services">
+            <p>Find Out More</p>
+          </a>
+          <a class="button2" href="#" id="openVideo">
+            <img src="images/play.png" alt="PlayButton" />
+            Watch Video
+          </a>
+        </div>
+      </div>
+
+      <div class="sideBar"></div>
+      <div class="cornerCut"></div>
+      <img class="hero-img" src="images/hashem-hero.jpg" />
+    </section>
+    <!-- Video Popup -->
+    <div id="videoPopup" class="popup">
+      <div class="popup-content">
+        <span id="closePopup" class="close">&times;</span>
+        <video
+          id="popupVideo"
+          controls
+          width="800"
+          height="800"
+          onplay="this.volume=0.25"
+        >
+          <source src="images/hashem.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    <section id="tags">
+      <div class="box">
+        <div class="image-box">
+          <img class="icon" src="images/polisher.png" />
+        </div>
+        <h2>Trained Professional</h2>
+        <p>
+          Trust our trained professionals for expert care, ensuring your
+          satisfaction every time.
+        </p>
+      </div>
+
+      <div class="box">
+        <div class="image-box">
+          <img class="icon" src="images/cleaning.png" />
+        </div>
+        <h2>Perfect Quality</h2>
+        <p>
+          We focus on top-quality work to deliver the best results every time.
+        </p>
+      </div>
+
+      <div class="box">
+        <div class="image-box">
+          <img class="icon" src="images/power.png" />
+        </div>
+        <h2>Best Products Used</h2>
+        <p>
+          We use premium cleaning products to achieve outstanding shine and
+          lasting protection.
+        </p>
+      </div>
+    </section>
+    <main>
+      <section id="about"></section>
+      <section id="services"></section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!--
+
+make hero button either Our Services or Book A Wash
+-->
+
+<!--
+
+
+MAKE SURE TO TRY AND MAKE HERO TEXT A SECTION AND HERO PHOTO A SECTION ISNTEAD OF MAKING PHOTO POSITION ABSOLUTE!!!
+
+
+make sure main imgs arent loading lazY!!!!!!!
+-->
