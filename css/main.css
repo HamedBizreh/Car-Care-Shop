@@ -1,12 +1,5 @@
 main {
   max-width: 1500px;
   margin: 100px auto;
-  background-color: yellow;
-  z-index: 1000;
-  height: 1000px;
-}
-#about {
-}
-#about h2 {
-  font-size: 40px;
+  background-color: lightsalmon;
 }
