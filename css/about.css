@@ -1,0 +1,45 @@
+.divider {
+  height: 40px;
+  background-image: repeating-linear-gradient(
+    -60deg,
+    var(--bg) 10px 16px,
+    #0d2a6b 16px 32px
+  );
+}
+/*.divider {
+  margin: 120px 0 100px;
+  height: 50px;
+  background-color: #0d2a6b;
+  position: relative;
+}
+.dividerStyle {
+  background-color: var(--bg);
+  height: 80px;
+  width: 20px;
+  transform: rotate(30deg);
+  position: absolute;
+  top: -15px;
+  left: 200px;
+}
+.second {
+  left: 250px;
+}
+.third {
+  left: 300px;
+}
+.fourth {
+  left: 350px;
+}
+.five {
+  left: 400px;
+}
+.six{
+  left: 450px;
+}*/
+#about {
+  max-width: 1500px;
+  margin: 100px auto;
+}
+#about h2 {
+  font-size: 45px;
+}
