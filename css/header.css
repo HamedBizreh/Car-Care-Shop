@@ -21,6 +21,9 @@ html,
 body {
   scroll-behavior: smooth;
 }
+#hero,#latest,#about,#services,#contact,#loaction{
+  scroll-margin-top: 120px;
+}
 
 header {
   position: sticky;
