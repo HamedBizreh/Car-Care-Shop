@@ -43,3 +43,17 @@
 #about h2 {
   font-size: 45px;
 }
+.aboutContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.whoWeAre {
+  font-size: 25px;
+  width: 1150px;
+}
+#about img{
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
