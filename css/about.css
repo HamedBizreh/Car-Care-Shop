@@ -66,6 +66,7 @@
   display: flex;
   flex-direction: row;
   gap: 70px;
+  margin: 250px 0;
 }
 .moreAboutUsImg img{
   width: 700px;
@@ -75,7 +76,10 @@
   box-shadow: 0px 0px 20px rgba(13, 42, 107, 0.7);
 }
 .moreAboutUsText{
-  font-size: 22px ;
+  font-size: 22px;
+}
+.moreAboutUsText h2{
+  margin: 0;
 }
 .insight{
   margin-top: 150px;
@@ -83,11 +87,11 @@
 .insightImages{
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 40px;
   justify-content: space-between;
 }
 .insightImages img{
-  width: 350px;
+  width: 345px;
   height: 350px;
   object-fit: cover;
   border-radius: 20px;
